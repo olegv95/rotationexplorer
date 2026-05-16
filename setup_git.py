@@ -18,16 +18,15 @@ def setup_git():
     
     # 3. Commit the code
     try:
-        run_command('git commit -m "Initial commit: Rotation Explorer interactive application"')
+        run_command('git commit -m "Update README with venv instructions and add setup script to gitignore"')
     except subprocess.CalledProcessError:
         print("\nNote: Nothing new to commit. Files are already tracked!")
 
     print("\n" + "="*60)
-    print("✅ Local Git Repository Setup Complete!")
+    print("✅ New changes successfully committed!")
     print("="*60)
-    print("\nTo automatically create and push this to GitHub, install the GitHub CLI (https://cli.github.com/)")
-    print("Once installed, just copy and paste this exact command into your terminal:\n")
-    print('gh repo create RotationExplorer --public --source=. --remote=origin --push --description "Interactive 3D rotation concepts explorer (Euler ZYX, Quaternions, Gimbal Lock) built in PyQt6."\n')
+    print("\nSince your repository is already linked to GitHub, just run this command to upload the updates:")
+    print("git push origin HEAD\n")
 
 if __name__ == "__main__":
     setup_git()

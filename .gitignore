@@ -9,3 +9,6 @@ __pycache__/
 build/
 dist/
 *.spec
+.claude/
+# Git automation scripts
+setup_git.py
