@@ -44,9 +44,6 @@ Run a pure terminal math demo to see the underlying library functions in action:
 python demo.py
 ```
 
-**3. Web Version**
-There is also a standalone browser version of this tool. Run:
-```bash
 
 ## Building a Standalone Executable
 
