@@ -1,0 +1,11 @@
+# Environments
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Executable build folders (PyInstaller)
+build/
+dist/
+*.spec
