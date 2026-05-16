@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Start-Process \"C:\\\\Users\\\\olegv\\\\Desktop\\\\Projects\\\\rotation_matrix\\\\claude\\\\rotation_guide.html\")",
-      "Bash(python generate_html.py)",
-      "Bash(python -c ' *)"
-    ]
-  }
-}
