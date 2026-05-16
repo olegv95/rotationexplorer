@@ -47,9 +47,6 @@ python demo.py
 **3. Web Version**
 There is also a standalone browser version of this tool. Run:
 ```bash
-python generatehtml2.py
-```
-Then open the generated `rotation_guide.html` in any modern web browser.
 
 ## Building a Standalone Executable
 
